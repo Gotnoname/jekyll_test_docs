@@ -1,0 +1,85 @@
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px -15px;
+
+  &__item {
+    background-color: $color-light-yellow;
+    font-size: 16px;
+    transition: 0.25s;
+    position: relative;
+    cursor: pointer;
+    padding: 26px;
+    margin: 15px;
+    flex: 1 1 calc(50% - 30px);
+    max-width: calc(50% - 30px);
+    border-radius: 2px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid $color-light-yellow;
+
+    &:hover {
+      background-color: white;
+    }
+
+    &--1 .cards__text:before {
+      background: url('/assets/img/icons/id-porten.svg') no-repeat;
+    }
+    &--2 .cards__text:before {
+      background: url('/assets/img/icons/eformidling.svg') no-repeat;
+    }
+    &--3 .cards__text:before {
+      background: url('/assets/img/icons/maskinporten.svg') no-repeat;
+    }
+    &--4 .cards__text:before {
+      background: url('/assets/img/icons/esignering.svg') no-repeat;
+    }
+    &--5 .cards__text:before {
+      background: url('/assets/img/icons/kontakt.svg') no-repeat;
+    }
+    &--6 .cards__text:before {
+      background: url('/assets/img/icons/einnsyn.svg') no-repeat;
+    }
+    &--7 .cards__text:before {
+      background: url('/assets/img/icons/postkasse.svg') no-repeat;
+    }
+    &--8 .cards__text:before {
+      background: url('/assets/img/icons/elma.svg') no-repeat;
+    }
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    @include font-style('sm', 500);
+
+    &:before {
+      content: "";
+      margin-right: 12px;
+      height: 30px;
+      width: 30px;
+      display: block;
+    }
+  }
+
+}
+
+.card-text, .card-text:hover {
+  color: white;
+  text-decoration: none !important;
+}
+
+@media (max-width: 767.98px) {
+
+  .cards {
+
+    &__item {
+      max-width: 100%;
+      flex: 1 1 100%;
+    }
+  }
+
+}

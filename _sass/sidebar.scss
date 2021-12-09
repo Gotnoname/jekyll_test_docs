@@ -1,0 +1,227 @@
+.sidebar {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  height: 100%;
+  padding-right: 0;
+
+  & .nav {
+    width: 95%;
+  }
+
+  .overlay {
+    background: linear-gradient(180deg, $color-grey-100, #ffffff);
+    height: 1000px;
+    position: absolute;
+    width: 1047px;
+    right: 0;
+    top: 0;
+  }
+
+  .sidebar {
+    &-inner {
+      position: relative;
+    }
+  }
+
+  .productTitle {
+    @include font-style(700, 500);
+    display: block;
+    margin-bottom: 11px;
+  }
+
+  .external {
+    display: none;
+  }
+
+}
+
+.docnav {
+  padding-left: 0;
+  margin-left: 0;
+  padding-right: 35px;
+
+  ul {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+
+  li {
+    list-style: none;
+    border-bottom: 0;
+
+    &.level1 {
+      > a {
+        padding: 6px 0;
+      }
+
+      &.open {
+        > a {
+          font-weight: 500;
+          color: black;
+        }
+      }
+    }
+
+    .level1items {
+
+      > a {
+        color: $color-link;
+        padding: 5px 0;
+        @include font-style(300);
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+
+    span {
+      font-size: 18px;
+      margin-right: 8px;
+      display: none;
+    }
+
+    a {
+      display: flex;
+      align-items: baseline;
+      position: relative;
+
+      &:hover {
+        color: $color-link;
+      }
+    }
+
+    &.level1 > a:before {
+      content: "";
+      display: inline-block;
+      font-family: "Font Awesome 5 Pro", sans-serif;
+      transition: 0.36s all;
+      font-size: 16px;
+      margin-right: 8px;
+      font-weight: 100;
+    }
+
+    &.level1.open > a:before {
+      content: "";
+    }
+
+
+    &.level1items.open {
+
+      > a {
+        padding-left: 13px;
+
+        &:before {
+          display: inline-block;
+          font-family: "Font Awesome 5 Pro", sans-serif;
+          content: "";
+          font-size: 6px;
+          color: blue;
+          font-weight: 900;
+          position: absolute;
+          left: 0;
+          top: 12px;
+        }
+      }
+
+    }
+
+  }
+
+  a {
+    @include font-style(400);
+    color: $color-grey-500;
+
+    &:hover,
+    &:active {
+      text-decoration: none;
+      color: #666;
+    }
+  }
+}
+
+.docnav li.level3,
+.docnav li.level3items {
+  padding-left: 10px
+}
+
+.docnav li.level2,
+.docnav li.level2items {
+  padding-left: 5px;
+}
+
+li.level1.open > ul > li.level1items.open a,
+li.level2.open > ul > li.level2items.open a,
+li.level3.open > ul > li.level3items.open a {
+  color: black;
+  font-weight: 500;
+}
+
+li.level1.open > ul > li.level1items.open > a:before,
+li.level2.open > ul > li.level2items.open > a:before,
+li.level3.open > ul > li.level3items.open > a:before {
+  color: black;
+}
+
+.relatedResources {
+  @include font-style(500, 500);
+  margin: 10px 0px 10px 0;
+}
+
+#entrypages {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    a {
+      @include font-style(400, 400);
+      color: $color-link;
+      padding: 5px 0;
+      display: block;
+
+      &:before {
+        content: "";
+        font-family: "Font Awesome 5 Pro", sans-serif;
+        margin-right: 9px;
+        font-size: 17px;
+      }
+    }
+  }
+
+}
+
+hr.resourceSeparator {
+  display: block;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  margin-left: 0;
+
+  border-width: 1px;
+  color: black;
+  max-width: 80%;
+}
+
+@media (max-width: 991.98px) {
+
+  .sidebar .overlay {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+}
+
+@media (max-width: 600px) {
+  .docnav li a {
+    max-width: 180px;
+  }
+  .githubButton {
+    display: none;
+  }
+}
+
+ul#docnavsidebar li a:focus {
+  text-decoration: none;
+}
+
+.mydocsidebar .input-group.search {
+  margin-top: -10px;
+}

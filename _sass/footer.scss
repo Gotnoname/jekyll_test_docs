@@ -1,0 +1,129 @@
+footer, .footer {
+  background-color: $color-grey-700;
+  padding: 75px 0;
+  margin-top: 50px;
+  position: relative;
+
+  .row {
+    .col-md-4 {
+      &:nth-child(1) {
+        padding-right: 31px;
+      }
+      &:nth-child(2) {
+        padding: 0 28px;
+      }
+      &:nth-child(3) {
+        padding-left: 31px;
+      }
+
+    }
+  }
+
+  &__heading {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    @include font-style(400, 500);
+    letter-spacing: 0.4px;
+  }
+
+  .footer-brand {
+
+    &__logo {
+      height: 38px;
+      margin-bottom: 15px;
+      margin-left: -8px;
+    }
+
+    &__text {
+      color: $color-grey-300;
+      @include font-style(300, 400);
+      line-height: 2em;
+    }
+
+  }
+
+  .footer-links {
+
+    &__list {
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+
+    &__item {
+      a {
+        color: $color-grey-300;
+        margin-bottom: 12px;
+        @include font-style(300, 400);
+        display: flex;
+        align-items: center;
+
+        &:before {
+          content: "";
+          font-family: "Font Awesome 5 Pro", sans-serif;
+          margin-right: 8px;
+          font-size: 17px;
+        }
+
+        &:hover {
+          color: white;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+  }
+
+  .footer-contact {
+
+    &__item {
+      color: $color-grey-300;
+      @include font-style(300, 400);
+      margin-bottom: 15px;
+
+      a {
+        color: $color-grey-300;
+        text-decoration: underline;
+
+        &:hover {
+          color: white;
+        }
+      }
+
+      span:first-child {
+        color: white;
+      }
+    }
+
+    &__icon {
+      color: $color-grey-300;
+      margin-top: 0;
+      margin-right: 16px;
+      display: inline-block;
+      font-size: 20px;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  footer {
+    .row {
+      .col-md-6:nth-child(2) {
+        margin: 30px 0;
+      }
+    }
+  }
+
+}

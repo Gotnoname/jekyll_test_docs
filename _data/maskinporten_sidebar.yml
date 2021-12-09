@@ -1,0 +1,92 @@
+sidebarTitle: Maskinporten
+
+
+folders:
+
+- title: Maskinporten
+  folderitems:
+
+      - title: Overordnet
+        jurl: /maskinporten_overordnet.html
+
+      - title: Virksomhetssertifikat
+        jurl: /maskinporten_virksomhetssertifikat.html
+
+
+- title: Bruksområde og guide
+  folderitems:
+
+      - title: Hvordan virker Maskinporten?
+        jurl: /maskinporten_auth_server-to-server-oauth2.html
+
+      - title: Guide for API-tilbyder
+        jurl: /maskinporten_guide_apitilbyder.html
+
+      - title: Guide for API-konsument
+        jurl: /maskinporten_guide_apikonsument.html
+
+
+- title: Selvbetjening
+  folderitems:
+
+      - title: Selvbetjening via Web
+        jurl: /maskinporten_sjolvbetjening_web.html
+
+      - title: Selvbetjening via API
+        jurl: /maskinporten_sjolvbetjening_api.html
+
+
+- title: Grensesnittspesifikasjon
+  folderitems:
+
+      - title: JWT grants
+        jurl: /maskinporten_protocol_jwtgrant.html
+
+      - title: /token-endepunkt
+        jurl: /maskinporten_protocol_token.html
+
+- title: Funksjonalitet
+  folderitems:
+
+      - title: Metadata
+        jurl: /maskinporten_func_wellknown.html
+
+      - title: Klientregistrering
+        jurl: /oidc_func_clientreg.html
+
+      - title: Delegering
+        jurl: /maskinporten_func_delegering.html
+
+      - title: Audience-begrensning
+        jurl: /maskinporten_func_audience_restricted_tokens.html
+
+
+- title: Spørsmål og svar
+  folderitems:
+
+     - title: Using Postman towards Maskinporten
+       jurl: /oidc_sample_jwtgrant_postman.html
+
+- title: Feilsøking
+  folderitems:
+
+  - title: Feilsøking i Maskinporten
+    jurl: /maskinporten_feilsoking.html
+
+###########################
+
+related_resources_title: Andre nyttige lenker
+
+related_resources_list:
+
+- title: Github
+  jurl: https://github.com/difi/felleslosninger
+
+- title: Samarbeidsportalen
+  jurl: https://samarbeid.digdir.no
+
+- title: Status og driftsmeldinger
+  jurl: https://status.digdir.no/
+
+- title: Digitaliseringsdirektoratet
+  jurl: https://www.digdir.no
