@@ -1,7 +1,7 @@
 ---
 
 title: Arrangement  
-permalink: sdp_arrangement.html
+
 sidebar: dpi_sidebar
 ---
 

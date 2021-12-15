@@ -2,7 +2,7 @@
 title: Innsynskrav og e-postoppsett
 description: Innsynskrav og e-postoppsett
 summary: ""
-permalink: einnsyn_innsynskrav.html
+
 sidebar: einnsyn_sidebar
 ---
 

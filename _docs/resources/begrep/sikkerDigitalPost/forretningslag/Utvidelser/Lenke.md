@@ -1,7 +1,7 @@
 ---
 
 title: Lenke utenfor brev  
-permalink: sdp_lenke.html
+
 sidebar: dpi_sidebar
 ---
 

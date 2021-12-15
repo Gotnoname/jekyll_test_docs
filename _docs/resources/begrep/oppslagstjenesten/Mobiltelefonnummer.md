@@ -2,7 +2,7 @@
 title: Mobiltelefonnummer  
 headtitle: Begrepskatalog for Sikker digital post -  
 group: Oppslagstjenesten/complexType  
-permalink: ot_mobiltelefonnummer.html
+
 sidebar:
 ---
 
@@ -18,9 +18,9 @@ sidebar:
 
 | Term                                             | Kardinalitet |
 | ------------------------------------------------ | ------------ |
-| [mobiltelefonnummer](../felles/mobiltelefonnummer.md) | 0..1         |
-| [sistOppdatert](../felles/sistOppdatert.md)           | 0..1         |
-| [sistVerifisert](../felles/sistVerifisert.md)         | 0..1         |
+| [mobiltelefonnummer]({{site.baseurl}}/docs/resources/begrep/felles/mobiltelefonnummer) | 0..1         |
+| [sistOppdatert]({{site.baseurl}}/docs/resources/begrep/felles/sistOppdatert)           | 0..1         |
+| [sistVerifisert]({{site.baseurl}}/docs/resources/begrep/felles/sistVerifisert)         | 0..1         |
 
 #### Xml eksempel
 

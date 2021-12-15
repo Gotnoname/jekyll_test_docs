@@ -1,7 +1,7 @@
 ---
 
 title: LeveringsKvittering  
-permalink: sdp_leveringskvittering.html
+
 sidebar: dpi_sidebar
 ---
 
@@ -9,7 +9,7 @@ sidebar: dpi_sidebar
 | Term          | {{page.title}} |
 | Definisjon    | Kvittering på at postkassen eller utskriftstjenesten har tatt ansvar for å tilgjengeliggjøre melding til mottaker. Sendes til Avsender via meldingsformideler. |
 | Kilde         | DIFI |
-| Kommentar     | Denne kvitteringen kan [Behandlingsansvarlig](../forretningslag/Aktorer.md) oppbevare som en garanti på at posten vil bli levert til [Mottaker](../begrep/Mottaker.md). |
+| Kommentar     | Denne kvitteringen kan [Behandlingsansvarlig]({{site.baseurl}}/docs/resources/begrep/sikkerDigitalPost/forretningslag/Aktorer) oppbevare som en garanti på at posten vil bli levert til [Mottaker]({{site.baseurl}}/docs/resources/begrep/felles/Mottaker). |
 
 #### For Digitalpost forsendelser
 
@@ -18,7 +18,7 @@ når postforsendelsen er validert og de garanterer for at posten vil bli
 tilgjengeliggjort.  
 Kvitteringen vil bli sendt så fort
 [Postkassleverandør](https://difi.github.io/felleslosninger/sdp_aktorer.html) kan garantere dette,
-det vil si at [Leveringskvitteringen](LeveringsKvittering.md) vil bli sendt
+det vil si at [Leveringskvitteringen]({{site.baseurl}}/docs/resources/begrep/sikkerDigitalPost/meldinger/LeveringsKvittering) vil bli sendt
 før (Skal være link til /felles/virkningsdato.md).
 
 #### For Fysiskpost forsendelser
@@ -34,8 +34,8 @@ tidspunkt for alle meldinger som postlegges samme dag.
 
 Det anbefales at [Behandlingsansvarlig](https://difi.github.io/felleslosninger/sdp_aktorer.html)
 arkiverer denne kvitteringen som bevis på at
-[posten](DigitalPostMelding.md) er levert til
-[Mottaker](../begrep/Mottaker.md).
+[posten]({{site.baseurl}}/docs/resources/begrep/sikkerDigitalPost/forretningslag/DigitalpostMelding.png) er levert til
+[Mottaker]({{site.baseurl}}/docs/resources/begrep/felles/Mottaker).
 
 ### Attributer
 

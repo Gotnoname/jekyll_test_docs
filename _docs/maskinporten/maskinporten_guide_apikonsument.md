@@ -2,7 +2,7 @@
 title: Slik bruker du Maskinporten som API-konsument
 description:  Maskinporten som API-konsument
 summary: 'API-konsumenter må lage en Maskinporten-integrasjon som har det aktuelle APIet sitt scope registrert.'
-permalink: maskinporten_guide_apikonsument.html
+
 sidebar: maskinporten_sidebar
 product: Maskinporten
 ---
@@ -152,7 +152,7 @@ Grantet kan inneholde mange forskjellige claims. Disse er de mest vesentlige:
 |jti|Anbefalt | JWT ID - unique id for denne jwt. **Merk:** A JWT kan ikke gjenbrukes.  |
 
 
-Se gjerne [den fullstendige grensesnittspesifikasjonen for JWT-grants](maskinporten_protocol_jwtgrant.html) for utfyllende dokumentasjon.
+Se gjerne [den fullstendige grensesnittspesifikasjonen for JWT-grants]({{site.baseurl}}/docs/maskinporten/maskinporten_protocol_jwtgrant) for utfyllende dokumentasjon.
 
 Slik kan en forspørsel se ut:
 ```

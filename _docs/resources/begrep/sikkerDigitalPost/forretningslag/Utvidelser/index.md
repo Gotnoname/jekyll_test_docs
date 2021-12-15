@@ -1,7 +1,7 @@
 ---
   
 title: Utvidelser  
-permalink: sdp_utvidelser_index.html
+
 sidebar: dpi_sidebar
 ---
 
