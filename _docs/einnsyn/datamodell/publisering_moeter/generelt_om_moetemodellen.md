@@ -2,7 +2,7 @@
 title: Generelt om møtemodellen
 description:
 summary:
-
+permalink: einnsyn_generelt_om_moetemodellen.html
 sidebar: einnsyn_technical_sidebar
 ---
 

@@ -5,38 +5,38 @@ folders:
   folderitems:
 
   - title: Hvordan komme  igang
-    jurl: /docs/idporten/saml/saml_tilgang
+    jurl: /saml_tilgang.html
 
   - title: Funksjonell beskrivelse
-    jurl: /docs/idporten/saml/saml_funksjonell
+    jurl: /saml_funksjonell.html
 
   - title: Teknisk - Innlogging
-    jurl: /docs/idporten/saml/saml_teknisk_innlogging
+    jurl: /saml_teknisk_innlogging.html
 
   - title: Detaljert beskrivelse av teknisk løsning
-    jurl: /docs/idporten/saml/saml_teknisk_losning
+    jurl: /saml_teknisk_losning.html
 
   - title: Sikkerhet
-    jurl: /docs/idporten/saml/saml_sikkerhet
+    jurl: /saml_sikkerhet.html
 
   - title: Detaljert beskrivelse av støttede SAML 2.0 profiler
-    jurl: /docs/idporten/saml/saml_stottede_profiler
+    jurl: /saml_stottede_profiler.html
 
   - title: Mer om metadata og SAML
-    jurl: /docs/idporten/saml/saml_metadata
+    jurl: /saml_metadata.html
 
   - title: Hurtigguide - Teknisk Integrasjon
-    jurl: /docs/idporten/saml/saml_hurtigguide
+    jurl: /saml_hurtigguide.html
 
   - title: Verifikasjonstester SAML og OpenID Connect
-    jurl: /docs/idporten/saml/saml_verifikasjonstester
+    jurl: /saml_verifikasjonstester.html
 
 
 #- title: OpenID Connect i ID-porten
 #  folderitems:
 
 #  - title: Integrasjonsguide OpenID Connec
-#    jurl: /docs/idporten/oidc/oidc_index
+#    jurl: /oidc_index.html
 
 ###########################
 

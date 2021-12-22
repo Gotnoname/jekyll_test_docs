@@ -213,7 +213,6 @@ kramdown:
 collections:
   docs:
     output: true
-    permalinks: /docs
 
 ########## UI text ###############
 # The UI text is separated into strings defined here to facilitate translation. Grouping them here also consolidates all UI text.

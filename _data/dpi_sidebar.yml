@@ -5,162 +5,162 @@ folders:
       folderitems:
 
       - title: Innledning
-        jurl: /docs/resources/begrep/sikkerDigitalPost/innledning/index
+        jurl: /sdp_index_innledning.html 
       - title: Arkitektur
-        jurl: /docs/resources/begrep/sikkerDigitalPost/innledning/arkitektur
+        jurl: /sdp_arkitektur.html   
       - title: Sikkerhet
-        jurl: /docs/resources/begrep/sikkerDigitalPost/sikkerhet/index
+        jurl: /sdp_sikkerhet_index.html 
       - title: Sertifikathåndtering
-        jurl: /docs/resources/begrep/sikkerDigitalPost/sikkerhet/sertifikathandtering
+        jurl: /sdp_sertifikathandtering.html   
       - title: Skjema (XSD) filer
-        jurl: /docs/resources/begrep/sikkerDigitalPost/xsd/sdp_skjema
+        jurl: /sdp_skjema.html 
       - title: Eksempler
-        jurl: /docs/resources/begrep/sikkerDigitalPost/eksempler/index
+        jurl: /sdp_index_eksempler.html
       - title: Eldre releaser av dokumentasjon
-        jurl: /docs/resources/begrep/sikkerDigitalPost/innledning/eldre_releaser
+        jurl: /sdp_eldre_releaser.html
         
     - title: Forretningslag
       folderitems:
 
       - title: Forretningslag
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/index
+        jurl: /sdp_forretningslag_index.html
       - title: Aktører og Roller
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Aktorer
+        jurl: /sdp_aktorer.html   
       - title: Varsling
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/varsling
+        jurl: /varsling.html   
       - title: Sending av digital post
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/forretningsprosess
+        jurl: /sdp_avsender_tilstanddiagram.html
       - title: Sending av digital post på vegne av andre
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/send_paa_vegne_av_andre
+        jurl: /sdp_send_paa_vegne_av_andre.html  
       - title: Henting av kvittering
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/forretningsprosess_kvittering
+        jurl: /sdp_forretningsprosess_kvittering.html
       - title: Tilstander for Avsender
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/avsender_tilstanddiagram
+        jurl: /sdp_avsender_tilstanddiagram2.html
       - title: Struktur på melding
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/meldingsformat
+        jurl: /sdp_meldingsformat.html
       - title: Prisen på digital post
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/meldingsstorrelse
+        jurl: /sdp_meldingsstorrelse.html
    
     - title: Dokumentpakke (ASiC)
       folderitems:
 
       - title: Introduksjon
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Dokumentpakke/dokumentpakke_index
+        jurl: /dokumentpakke_index.html
       - title: Langtidslagring
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Dokumentpakke/langtidslagring
+        jurl: /sdp_langtidslagring.html   
       - title: Manifest
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Dokumentpakke/Manifest
+        jurl: /sdp_manifest.html
       - title: Dokumentformater
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Dokumentformat/index
+        jurl: /dokumentformat_index.html   
       - title: MIME type
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Dokumentformat/mimetypes
+        jurl: /sdp_mimetypes.html  
       - title: html
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Dokumentformat/html
+        jurl: /sdp_html.html
       - title: ehf
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Dokumentformat/ehf
+        jurl: /sdp_ehf.html
       - title: Sikkerhet
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Sikkerhet/index
+        jurl: /sikkerhet_index.html
 
     - title: Utvidelser
       folderitems:
 
       - title: Introduksjon
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Utvidelser/index
+        jurl: /sdp_utvidelser_index.html
       - title: Lenke utenfor brev
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Utvidelser/Lenke
+        jurl: /sdp_lenke.html
       - title: Bevis
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Utvidelser/Bevis
+        jurl: /sdp_bevis.html
       - title: Arrangement
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/Utvidelser/Arrangement
+        jurl: /sdp_arrangement.html
         
     - title: Utskrift og forsendelse
       folderitems:
            
       - title: Utskriftstjenesten
-        jurl: /docs/resources/begrep/sikkerDigitalPost/utskrift/sdp_index_utskrift
+        jurl: /sdp_index_utskrift.html
         
       - title: Prosessbeskrivelse
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/forretningsprosess_utskrift
+        jurl: /sdp_forretningsprosess_utskrift.html
  
     - title: Forretningsmeldinger
       folderitems:
 
       - title: Forretningsmeldinger
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/index
+        jurl: /sdp_index.html
       - title: DigitalPostMelding
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/DigitalPostMelding
+        jurl: /sdp_digitalpostmeldinger.html   
       - title: LeveringsKvittering
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/LeveringsKvittering
+        jurl: /sdp_leveringskvittering.html 
       - title: AapningsKvittering
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/AapningsKvittering
+        jurl: sdp_aapningskvittering.html  
       - title: VarslingfeiletKvittering
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/VarslingfeiletKvittering
+        jurl: /sdp_varslingfeiletkvittering.html 
       - title: MottaksKvittering
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/MottaksKvittering
+        jurl: /sdp_mottakskvittering.html
       - title: ReturpostKvittering
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/ReturpostKvittering
+        jurl: /sdp_returpostkvittering.html
       - title: Feil
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/Feil
+        jurl: /sdp_feil.html
       - title: FlyttetDigitalpostMelding
-        jurl: /docs/resources/begrep/sikkerDigitalPost/meldinger/FlyttetDigitalPostMelding
+        jurl: /sdp_flyttetdigitalpostmelding.html
  
     - title: Standard Business Document
       folderitems:
 
       - title: Standard Business Document
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/StandardBusinessDocument/index
+        jurl: /standardbusinessdocument_index.html
       - title: StandardBusinessDocumentHeader
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/StandardBusinessDocument/StandardBusinessDocumentHeader
+        jurl: /sdp_standardbusinessdocumentheader.html   
       - title: Sender
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/StandardBusinessDocument/Sender
+        jurl: /sdp_sender.html
       - title: Receiver
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/StandardBusinessDocument/Receiver
+        jurl: /sdp_receiver.html 
       - title: DocumentIdentification
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/StandardBusinessDocument/DocumentIdentification
+        jurl: /sdp_documentidentification.html 
       - title: BusinessScope
-        jurl: /docs/resources/begrep/sikkerDigitalPost/forretningslag/StandardBusinessDocument/BusinessScope
+        jurl: /sdp_businessscope.html
  
     - title: Transportlag
       folderitems: 
 
       - title: Transport av meldinger
-        jurl: /docs/resources/begrep/sikkerDigitalPost/transportlag/index
+        jurl: /sdp_transportlag_index.html 
       - title: Meldingsutveksling
-        jurl: /docs/resources/begrep/sikkerDigitalPost/transportlag/Meldingsutveksling/index
+        jurl: /sdp_index_meldingsutveksling.html   
       - title: Meldingsidentifikatorer
-        jurl: /docs/resources/begrep/sikkerDigitalPost/transportlag/MeldingsIdentifikatorer
+        jurl: /sdp_meldingsidentifikatorer.html
       - title: Meldingsformat
-        jurl: /docs/resources/begrep/sikkerDigitalPost/transportlag/Meldingsformat
+        jurl: /sdp_transportlag_meldingsformat.html    
       - title: Webservice sikkerhet
-        jurl: /docs/resources/begrep/sikkerDigitalPost/transportlag/WebserviceSecurity
+        jurl: /sdp_webservicesecurity.html
  
     - title: Feilhåndtering
       folderitems:
 
       - title: Feilhåndtering
-        jurl: /docs/resources/begrep/sikkerDigitalPost/feilhandtering/index
+        jurl: /sdp_feil_index.html
       - title: Forvaltning og tekniske feil
-        jurl: /docs/resources/begrep/sikkerDigitalPost/feilhandtering/Forvaltning
+        jurl: /sdp_forvaltning.html    
       - title: Transportfeil
-        jurl: /docs/resources/begrep/sikkerDigitalPost/feilhandtering/Transportfeil
+        jurl: /sdp_transportfeil.html
       - title: Forretningsfeil
-        jurl: /docs/resources/begrep/sikkerDigitalPost/feilhandtering/Forretningsfeil
+        jurl: /sdp_forretningsfeil.html   
 
     - title: Testing
       folderitems:
 
       - title: Postkasser til testbrukere
-        jurl: /docs/resources/begrep/sikkerDigitalPost/testbrukere/opprette_testbrukere
+        jurl: /sdp_pk_til_testbruker_index.html
       - title: Integrasjonstest
-        jurl: /docs/resources/begrep/sikkerDigitalPost/testbrukere/integrasjonstest
+        jurl: /sdp_integrasjonstest.html    
       - title: Beskrivelse av testmiljø
-        jurl: /docs/resources/begrep/sikkerDigitalPost/testbrukere/postkasse_testmiljo
+        jurl: /sdp_testmiljo.html   
     
     - title: Begrep
       folderitems:
       
       - title: Begrepskatalog
-        jurl: /docs/resources/begrep/sikkerDigitalPost/begrep/index
+        jurl: /begrep_index.html
 
     - title: Ny transportinfrastruktur
       folderitems:

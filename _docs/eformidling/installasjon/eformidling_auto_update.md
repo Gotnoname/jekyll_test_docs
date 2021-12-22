@@ -1,7 +1,7 @@
 ---
 title: Automatisk oppdatering av integrasjonspunkt 
 description: Korleis sette opp og bruke Kontinuerlege oppdateringar for sikker meldingsutveksling i offentleg sektor - KOSMOS
-
+permalink: eformidling_auto_update.html
 product: eFormidling
 sidebar: eformidling_sidebar
 ---
@@ -54,7 +54,7 @@ Det er anbefalt (minst konfigurasjon) å køyre både integrasjonspunkt.jar og k
 
 1. Legg inn jar-fila og ```kosmos-local.properties``` i ønska katalog.
 2. Sett opp naudsynte konfigurasjonar i ```kosmos-local.properties```. Sjå under.
-3. [Laste ned Digdir sin offentlege nøkkel]({{site.baseurl}}/docs/resources/eformidling/public_keys/eformidling-key.asc) og lagre valgt katalog.
+3. [Laste ned Digdir sin offentlege nøkkel](/resources/eformidling/public_keys/eformidling-key.asc) og lagre valgt katalog.
 
 ## Konfigurere properties fil
 Åpne ```kosmos-local.properties``` i katalogen du skal køyre ```.jar``` fila frå sett inn følgande properties.
@@ -78,7 +78,7 @@ spring.mail.port=<set-your-port-here>
 # Digitaliseringsdirektoratet public key paths. i.e: file:keyname.asc
 kosmos.verification.publicKeyPaths[0]=file:eformidling-key.asc
 ```
-*[Last ned properties-fila her]({{site.baseurl}}/docs/resources/eformidling/kosmos-local.properties)*
+*[Last ned properties-fila her](/resources/eformidling/kosmos-local.properties)*
 
 ### Setje tidspunkt for oppdatering
 *Valgfritt*
@@ -151,7 +151,7 @@ o1Dt
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-[Last ned offentleg nøkkel]({{site.baseurl}}/docs/resources/eformidling/public_keys/eformidling-key.asc)
+[Last ned offentleg nøkkel](/resources/eformidling/public_keys/eformidling-key.asc)
 
 Den offentlege nøkkelen vår har fingeravtrykket: 
 ```
@@ -193,7 +193,7 @@ Om du har alt i samme katalog treng du kun endre versjonsnamnet "X.Y.Z" frå fø
   </log>
 </service>
 ```
-*[Last ned konfigurasjonsfila her]({{site.baseurl}}/docs/resources/eformidling/kosmos-service.xml)*
+*[Last ned konfigurasjonsfila her](/resources/eformidling/kosmos-service.xml)*
 
 > **Merk:** Visst du har mellomrom i mappenamn i stien bør du endre %BASE% til absolutt sti. Døme: *C:\\"kosmos app"\\sti\\til\\her\\kosmos.X.Y.Z.jar*
 

@@ -5,31 +5,31 @@ folders:
   folderitems:
 
   - title: Forutsetning for installasjon og verktøy
-    jurl: /docs/einnsyn/einnsyn_install_forutsetninger_verktoy
+    jurl: /einnsyn_forutsetninger.html
 
   - title: Konfigurasjon av einnsyn-klient.xml
-    jurl: /docs/einnsyn/einnsyn_install_konfigurasjon
+    jurl: /einnsyn_konfigurasjon.html
 
   - title: Installere einnsyn-klient som Windows service
-    jurl: /docs/einnsyn/einnsyn_install_tjeneste
+    jurl: /einnsyn_install_tjeneste.html
 
   - title: Teste og verifisere installasjon
-    jurl: /docs/einnsyn/einnsyn_test_verifikasjon
+    jurl: einnsyn_test_verifikasjon.html
 
   - title: Oppdatere einnsyn-klient
-    jurl: /docs/einnsyn/einnsyn_oppdatere_tjeneste
+    jurl: /einnsyn_oppdatere_tjeneste.html
 
 - title: Avansert - ekstra innstillinger
   folderitems:
 
   - title: Flere einnsyn-klienter på samme server
-    jurl: /docs/einnsyn/einnsyn_flere_klienter
+    jurl: /einnsyn_flere_klienter.html
 
   - title: Innsynskrav og e-postoppsett
-    jurl: /docs/einnsyn/einnsyn_innsynskrav
+    jurl: /einnsyn_innsynskrav.html
 
 - title: Datamodellen
-  jurl: /docs/einnsyn/datamodell/generelt_om_modellen
+  jurl: /einnsyn_generelt_om_modellen.html
 
 ###########################
 

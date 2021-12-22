@@ -2,7 +2,7 @@
 title: Using Postman with Maskinporten JWT-grants
 description: Using Postman with Maskinporten JWT-grants
 summary: "This is short how-to on using Postman towards APIs secured by Maskinporten, includingDigitaliseringsdirektoratets  self-service APIs.  A small standalone tool is used to generate the JWT-grant and exchange it for an access token.  This access token is then used as a bearer token in Postman."
-
+permalink: oidc_sample_jwtgrant_postman.html
 sidebar: oidc
 product: ID-porten
 ---
@@ -21,7 +21,7 @@ Download the JWT grant generator from [https://github.com/difi/jwt-grant-generat
 Create a keystore (JKS) holding your business certificate ("virksomhetssertifikat") keypair.  Both the certificate and private key should be included in the JKS.  The certificate should be the one use for signing (not non-repuditation).  The JKS  should look similar to the figure below in Keytool Explorer:
 ![keytool screenshot](/images/idporten/oidc/oidc_sample_jwtgrant_postman-7b70f6e0.png).
 
-Configure the properties file with correct settings,  ie passwords to the keystore and private key,  your clientid, and the ìdentifier of Maskinporten for the [environment you're using]({{site.baseurl}}/docs/idporten/oidc/oidc_func_wellknown).
+Configure the properties file with correct settings,  ie passwords to the keystore and private key,  your clientid, and the ìdentifier of Maskinporten for the [environment you're using](oidc_func_wellknown.html).
 
 Configure the properties file with the scope for the API you want to access (ForDigitaliseringsdirektoratets  self-service APIs, the relevant scopes are `idporten:dcr.write` and `idporten:dcr.read` for integration management, and `idporten:scopes.write` for API management).
 

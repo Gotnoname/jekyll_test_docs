@@ -3,7 +3,7 @@ title: Installasjonsveiledning for integrasjonpunktet
 description: Hvordan komme i gang med integrasjonspunktet
 summary: "Hvordan man oppgraderer integrasjonspunktet til ny versjon."
 
-
+permalink: eformidling_download_ip.html
 product: eFormidling
 sidebar: eformidling_sidebar
 ---
@@ -20,7 +20,7 @@ sidebar: eformidling_sidebar
 
 ___
 
-### [Endringslogg]({{site.baseurl}}/docs/eformidling/selvhjelp/eformidling_releasenotes)
+### [Endringslogg](../eformidling_releasenotes.html)
 ___
 
 ### Versjonering 

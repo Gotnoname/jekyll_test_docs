@@ -3,7 +3,7 @@ title: Tjenester
 keywords: tjenester, dpo, dpi, dpv, dpf, dpe
 tags: [dpo, dpv, dpi, dpe, dpf, dpi]
 summary: "Oversikt over forkjellige tjenester du kan nå med integrasjonspunket"
-
+permalink: eformidling_veiledning_sakark.html
 product: eFormidling
 sidebar: eformidling_sidebar
 ---
