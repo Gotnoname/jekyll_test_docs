@@ -2,9 +2,10 @@
 title: Sikkerhet
 description: Sikkerhet
 summary: "Om sikkerhet i ID-porten"
-permalink: saml_sikkerhet.html
+
 sidebar: saml_idporten_sidebar
 product: ID-porten
+redirect_from: /saml_sikkerhet
 ---
 
 Her er beskrivelse av krav til sertifikater, nøkler og algoritmer i forbindelse med ID-porten.

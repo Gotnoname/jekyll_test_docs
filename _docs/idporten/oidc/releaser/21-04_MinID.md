@@ -1,8 +1,9 @@
 ---
 title: 21-04 MinID
 description: 21-04 MinID
-permalink: 21-04_MinID.html
+
 sidebar: oidc
+redirect_from: /21-04_minid
 ---
 
 

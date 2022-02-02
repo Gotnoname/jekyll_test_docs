@@ -1,8 +1,9 @@
 ---
 title: 22-02 Ansattporten
 description: 22-02 Ansattporten
-permalink: 22-02_Ansattporten.html
+
 sidebar: oidc
+redirect_from: /22-02_ansattporten
 ---
 
 

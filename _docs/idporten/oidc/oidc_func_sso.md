@@ -2,9 +2,10 @@
 title: SSO og SLO
 description: SSO og SLO
 summary: "Single Signon (SSO) og Single Logout (SLO) er støttet ved bruk av OIDC."
-permalink: oidc_func_sso.html
+
 sidebar: oidc
 product: ID-porten
+redirect_from: /oidc_func_sso
 ---
 
 ## Om funksjonaliteten
@@ -34,7 +35,7 @@ Alle OIDC-tjenester må implementere støtte for følgende to utloggings-scenari
 
 ### 1: Utlogging fra egen tjeneste
 
-Når brukeren vil logge ut fra din tjeneste, må du sende en redirect til ID-portens endsession-endepunkt.  Adressen til endepunktet er definert i [well-known-endepunktet](oidc_func_wellknown.html).  
+Når brukeren vil logge ut fra din tjeneste, må du sende en redirect til ID-portens endsession-endepunkt.  Adressen til endepunktet er definert i [well-known-endepunktet]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_wellknown).  
 
 
 Følgende attributer kan være del av requesten:

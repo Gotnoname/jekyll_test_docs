@@ -2,9 +2,10 @@
 title: Overordnet arkitekturbeskrivelse
 description:
 summary:
-permalink: idporten_overordnet.html
+
 sidebar: oidc
 product: ID-porten
+redirect_from: /idporten_overordnet
 ---
 
 ## Introduksjon
@@ -49,7 +50,7 @@ Dersom sluttbruker er innlogget hos tjenesteeier A og velger å gå videre til e
 
 ### **Sesjonstid**
 
-Tjenesteleverandør og ID-porten holder egne sesjoner mot sluttbruker som ikke er avhengig av hverandre. Digitaliseringsdirektoratet anbefaler at tjenesteleverandør bruker samme sesjonstider som ID-porten, [Sesjonshåndtering](saml_teknisk_losning.html#sesjonshåndtering) for mer detaljer
+Tjenesteleverandør og ID-porten holder egne sesjoner mot sluttbruker som ikke er avhengig av hverandre. Digitaliseringsdirektoratet anbefaler at tjenesteleverandør bruker samme sesjonstider som ID-porten, [Sesjonshåndtering]({{site.baseurl}}/docs/ID-porten/saml/saml_teknisk_losning#sesjonshåndtering) for mer detaljer
 
 ### **Sesjonsoppgradering**
 

@@ -1,7 +1,8 @@
 ---
 title: Felles
-permalink: begrep_felles_index.html
+
 sidebar: sidebar_begrep
+redirect_from: /begrep_felles_index
 ---
 
 

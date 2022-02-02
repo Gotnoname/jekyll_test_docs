@@ -1,8 +1,9 @@
 ---
 title: Kontakt- og reservasjonsregisteret
 description: 
-permalink: krr_index.html
+
 produkt: Kontaktregisteret
+redirect_from: /krr_index
 ---
 Kontakt- og reservasjonsregisteret er et register over innbyggernes digitale kontaktinformasjon, og status for innbyggernes eventuelle reservasjon mot digital kommunikasjon med forvaltningen. Registeret, og bruken av det, er hjemlet i eForvaltningsforskriften. 
 

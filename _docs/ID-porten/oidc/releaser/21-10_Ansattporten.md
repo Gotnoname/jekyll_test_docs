@@ -1,8 +1,9 @@
 ---
 title: 21-10 Ansattporten
 description: 21-10 Ansattporten
-permalink: 21-10_Ansattporten.html
+
 sidebar: oidc
+redirect_from: /21-10_ansattporten
 ---
 
 

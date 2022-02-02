@@ -1,7 +1,8 @@
 ---
 title: Utskrifts- og forsendelsestjenesten
-permalink: sdp_index_utskrift.html
+
 sidebar: dpi_sidebar
+redirect_from: /sdp_index_utskrift
 ---
 
 En tjeneste som tilbyr en papirposttjeneste ved å skrive ut posten på

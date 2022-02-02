@@ -1,8 +1,9 @@
 ---
 title: 20-04 ID-porten
 description: 20-04 ID-porten
-permalink: 20-04_ID-porten.html
+
 sidebar: oidc
+redirect_from: /20-04_id-porten
 ---
 
 

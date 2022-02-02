@@ -1,8 +1,9 @@
 ---
 title: 20-08 MinID
 description: 20-08 MinID
-permalink: 20-08_MinID.html
+
 sidebar: oidc
+redirect_from: /20-08_minid
 ---
 
 

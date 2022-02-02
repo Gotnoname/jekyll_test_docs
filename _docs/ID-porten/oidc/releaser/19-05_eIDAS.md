@@ -1,8 +1,9 @@
 ---
 title: 19-05 eIDAS
 description: 19-05 eIDAS
-permalink: 19-05_eIDAS.html
+
 sidebar: oidc
+redirect_from: /19-05_eidas
 ---
 
 

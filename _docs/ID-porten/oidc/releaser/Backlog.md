@@ -1,8 +1,9 @@
 ---
 title: Backlog
 description: Backlog
-permalink: Backlog.html
+
 sidebar: oidc
+redirect_from: /backlog
 ---
 
 

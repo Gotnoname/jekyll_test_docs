@@ -2,9 +2,10 @@
 title: REST-API for autorisasjoner i OIDC-provider
 description: API for autorisasjoner i OIDC provider
 summary: "Innbygger sine autorisasjoner i ID-portens OIDC provider er tilgjengelig på et REST-api, for kundens egen oversikt.  Typiske autorisasjoner er såkalte langt-levende innlogginger til mobil-apper."
-permalink: oidc_api_autorisasjoner.html
+
 sidebar: oidc
 product: ID-porten
+redirect_from: /oidc_api_autorisasjoner
 ---
 
 ## Introduksjon
@@ -43,8 +44,8 @@ Endepunktene er beskyttet med Oauth2 access_token fra enten ID-porten eller Mask
 
 | HTTP verb| beskrivelse|
 |-|-|
-| GET | Forventer at access_token tilhører innlogget bruker (såkalt [autentiseringsnær autorisasjon](oidc_auth_oauth2.html)) |
-| POST | Forventer [maskinporten-basert tilgang](maskinporten_auth_server-to-server-oauth2.html) og at personidentifikator er del av request-body |
+| GET | Forventer at access_token tilhører innlogget bruker (såkalt [autentiseringsnær autorisasjon]({{site.baseurl}}/docs/ID-porten/oidc/oidc_auth_oauth2)) |
+| POST | Forventer [maskinporten-basert tilgang]({{site.baseurl}}/docs/maskinporten/maskinporten_auth_server-to-server-oauth2) og at personidentifikator er del av request-body |
 | DELETE | Støtter begge token-typer.  |
 
 

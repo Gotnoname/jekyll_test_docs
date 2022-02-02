@@ -12,6 +12,9 @@ port: 4000
 # the output. in the _config_pdf.yml, this is "pdf". you can create conditions based on this property (such as navtab content that should appear in web but not pdf).
 format: web
 
+plugins:
+  - jekyll-redirect-from
+
 # the little icon that appears in the browser window's tab
 favicon: assets/Favikon - Digdir.png
 

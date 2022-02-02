@@ -1,8 +1,9 @@
 ---
 title: 22-01 Maskinporten
 description: 22-01 Maskinporten
-permalink: 22-01_Maskinporten.html
+
 sidebar: oidc
+redirect_from: /22-01_maskinporten
 ---
 
 

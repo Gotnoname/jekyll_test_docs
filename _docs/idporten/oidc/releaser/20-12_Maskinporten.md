@@ -1,8 +1,9 @@
 ---
 title: 20-12 Maskinporten
 description: 20-12 Maskinporten
-permalink: 20-12_Maskinporten.html
+
 sidebar: oidc
+redirect_from: /20-12_maskinporten
 ---
 
 

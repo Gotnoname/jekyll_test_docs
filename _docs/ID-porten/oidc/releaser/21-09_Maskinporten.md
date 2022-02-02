@@ -1,8 +1,9 @@
 ---
 title: 21-09 Maskinporten
 description: 21-09 Maskinporten
-permalink: 21-09_Maskinporten.html
+
 sidebar: oidc
+redirect_from: /21-09_maskinporten
 ---
 
 

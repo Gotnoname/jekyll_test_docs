@@ -1,8 +1,9 @@
 ---
 title: Prosjekter 2021
 description: Prosjekter 2021
-permalink: Prosjekter_2021.html
+
 sidebar: oidc
+redirect_from: /prosjekter_2021
 ---
 
 

@@ -2,9 +2,10 @@
 title: Om disse sidene
 description: Om disse sidene
 summary: "Litt meta-info om disse sidene"
-permalink: oidc_about.html
+
 sidebar: oidc
 product: ID-porten
+redirect_from: /oidc_about
 ---
 
 ## Om sidene

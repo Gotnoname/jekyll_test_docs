@@ -2,9 +2,10 @@
 title: Detaljert beskrivelse av teknisk løsning
 description: Detaljert beskrivelse av teknisk løsning
 summary: "Detaljert beskrivelse av teknisk løsning"
-permalink: saml_teknisk_losning.html
+
 sidebar: saml_idporten_sidebar
 product: ID-porten
+redirect_from: /saml_teknisk_losning
 ---
 
 ### Logging

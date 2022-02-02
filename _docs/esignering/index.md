@@ -1,8 +1,9 @@
 ---
 title: eSignering
 description: eSignering
-permalink: esign_index.html
+
 product: eSignering
+redirect_from: /esign_index
 ---
 
 Tjenesten kan hjelpe offentlige virksomheter med å sikre brukervennlig, sikker og effektiv håndtering av dokumenter som krever signatur fra innbyggere.

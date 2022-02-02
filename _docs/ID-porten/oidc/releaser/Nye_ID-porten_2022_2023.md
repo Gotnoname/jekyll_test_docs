@@ -1,8 +1,9 @@
 ---
 title: Nye ID-porten 2022/2023
 description: Nye ID-porten 2022/2023
-permalink: Nye_ID-porten_2022_2023.html
+
 sidebar: oidc
+redirect_from: /nye_id-porten_2022_2023
 ---
 
 

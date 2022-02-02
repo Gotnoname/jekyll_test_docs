@@ -2,9 +2,10 @@
 title: Audience-begrensning
 description: Audience-begrensing
 summary: "Audience-begrensning av token motvirker at tokens kan misbrukes mot andre APIer enn de som er tiltenkt."
-permalink: oidc_func_aud.html
+
 sidebar: oidc
 product: ID-porten
+redirect_from: /oidc_func_aud
 ---
 
 Audience-begrensning er aktuelt der flere APIer er sikret av samme `scope`.  Ved å låse tokenet til et spesifikt audience (feks https://api.a.no/ ), så kan ikke tokenet brukes mot andre API (https://api.b.no), gitt at de aktuelle APIene utfører nødvendig validering.

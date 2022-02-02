@@ -2,9 +2,10 @@
 title: eFormidling
 description: Digitaliseringsdirektoratets  løsning for meldingsutveksling i offentlig forvalting
 summary: "Digdirs løsning for meldingsutveksling i offentlig forvalting"
-permalink: eformidling_index.html
+
 sidebar: main_sidebar
 product: eFormidling
+redirect_from: /eformidling_index
 ---
 
 ## Bakgrunn

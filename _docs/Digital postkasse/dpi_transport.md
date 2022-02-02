@@ -2,8 +2,9 @@
 title: Digital postkasse transport
 description: Digital postkasse til innbyggere
 summary: "DPI - Digital postkasse til innbyggere"
-permalink: dpi_transport.html
+
 product: Digital postkasse
+redirect_from: /dpi_transport
 ---
 
 Dette dokumentet er eit framlegg til nytt, proprietært REST-api sikret med Maskinporten, for å sende Digital Post til Innbygger.

@@ -1,8 +1,9 @@
 ---
 title: 21-08 ID-porten
 description: 21-08 ID-porten
-permalink: 21-08_ID-porten.html
+
 sidebar: oidc
+redirect_from: /21-08_id-porten
 ---
 
 

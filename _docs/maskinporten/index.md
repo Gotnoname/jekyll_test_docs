@@ -1,8 +1,9 @@
 ---
 title: Maskinporten
 description:
-permalink: maskinporten_index.html
+
 produkt: maskinporten
+redirect_from: /maskinporten_index
 ---
 Maskinporten er en tjeneste som tilbyr en enkel modell for API-sikring basert på OAuth2 protokollen og bruk av JWT-bearer grants, inspirert av [Google sine system-kontoer](https://developers.google.com/identity/protocols/OAuth2ServiceAccount).
 

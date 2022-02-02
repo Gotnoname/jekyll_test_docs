@@ -2,13 +2,14 @@
 title: SAML grensesnitt
 description: 
 summary: 
-permalink: idporten_grensesnitt_saml.html
+
 sidebar: idporten_sidebar
 product: ID-porten
+redirect_from: /idporten_grensesnitt_saml
 ---
 
 ID-porten støtter SAML2 som grensesnittsprotokoll:
 
 
-- [SAML2](saml_tilgang.html)
+- [SAML2]({{site.baseurl}}/docs/ID-porten/saml/saml_tilgang)
 

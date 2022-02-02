@@ -2,11 +2,12 @@
 title: ID-porten testbrukere
 description: ID-porten testbrukere
 summary:
-permalink: idporten_testbrukere.html
+
 toc: false
 sidebar: oidc
 product: ID-porten
 
+redirect_from: /idporten_testbrukere
 ---
 I tabellen under finner du en rekke testbrukere som kan benyttes for testing av ID-porten integrasjoner i verifikasjonsmiljøene Ver1 og Ver2.
 

@@ -1,8 +1,9 @@
 ---
 title: Prosjekter
 description: Prosjekter
-permalink: Prosjekter.html
+
 sidebar: oidc
+redirect_from: /prosjekter
 ---
 
 

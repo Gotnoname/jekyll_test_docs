@@ -2,9 +2,10 @@
 title: Funksjonell beskrivelse
 description: Funksjonell beskrivelse - Oversikt over de funksjoner som ID-porten tilbyr som tjenesteleverandør
 summary: "Funksjonell beskrivelse - Oversikt over de funksjoner som ID-porten tilbyr som tjenesteleverandør"
-permalink: saml_funksjonell.html
+
 sidebar: saml_idporten_sidebar
 product: ID-porten
+redirect_from: /saml_funksjonell
 ---
 
 ## Introduksjon

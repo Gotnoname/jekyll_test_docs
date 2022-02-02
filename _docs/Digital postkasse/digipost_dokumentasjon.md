@@ -1,8 +1,9 @@
 ---
 title: Digital postkasse
 description: Digital postkasse til innbyggere
-permalink: digipost_dokumentasjon.html
+
 product: Digital postkasse
+redirect_from: /digipost_dokumentasjon
 ---
 
 Beskrivelse av tjenesten, priser og tilleggstjenester finnes på [Samarbeidsportalen](https://samarbeid.digdir.no)

@@ -2,10 +2,11 @@
 title: Ofte stilte spørsmål
 description: Ofte stilte spørsmål
 summary: "Her finner du ofte stilte spørsmål"
-permalink: oidc_guide_faq.html
+
 toc: false
 sidebar: oidc
 product: ID-porten
+redirect_from: /oidc_guide_faq
 ---
 
 ## Generelle spørsmål
