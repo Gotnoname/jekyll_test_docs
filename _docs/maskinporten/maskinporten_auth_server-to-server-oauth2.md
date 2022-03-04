@@ -60,7 +60,7 @@ I dette scenariet ønsker en **klient** å bruke en **ressurs (API)** tilbudt av
 
 ## 1. Generere JWT
 
-Klienten må generere og signere ein JWT for å forespørre tokens fra autorisasjonsserveren.  For komplett dokumentasjon, se [grensesnittspesifikasjon for JWT-grant]({{site.baseurl}}/docs/maskinporten/maskinporten_protocol_jwtgrant)
+Klienten må generere og signere ein JWT for å forespørre tokens fra autorisasjonsserveren.  For komplett dokumentasjon, se [grensesnittspesifikasjon for JWT-grant]({{site.baseurl}}/docs/Maskinporten/maskinporten_protocol_jwtgrant)
 
 Selve grantet kan se slik ut:
 
@@ -85,7 +85,7 @@ Selve grantet kan se slik ut:
 
 ## 2. Send JWT til /token-endepunktet
 
-Se [detaljert grensesnittspesifikasjon  av /token-endepunktet]({{site.baseurl}}/docs/maskinporten/maskinporten_protocol_token).
+Se [detaljert grensesnittspesifikasjon  av /token-endepunktet]({{site.baseurl}}/docs/Maskinporten/maskinporten_protocol_token).
 
 
 Eksempel på forespørsel:

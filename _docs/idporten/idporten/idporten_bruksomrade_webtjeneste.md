@@ -72,7 +72,7 @@ Merk: OpenID Connect bygger på OAuth2, og denne flyten er derfinert i OAuth2-sp
 
 Klienten sender en autentiseringsforespørsel ved å redirecter sluttbrukeren til autorisasjonsendepunktet.
 
-Se [detaljert dokumentasjon for autorisasjonsendepunktet]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_authorize) for valgmuligheter.
+Se [detaljert dokumentasjon for autorisasjonsendepunktet]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_authorize) for valgmuligheter.
 
 
 #### Eksempel på forespørsel
@@ -117,7 +117,7 @@ Bruk av endepunktet varierer litt med hvilken klient-autentiseringsmetode som be
 * **client_secret_basic** / **client_secret_post** - Klientautentisering basert på client_secret
 * **private_key_jwt** - Klientautentisering basert på JWT'er signert med virksomhetssertifikater (anbefalt)
 
-Se [detaljert dokumentasjon for token-endepunktet]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_token) for valgmuligheter i forespørselen.
+Se [detaljert dokumentasjon for token-endepunktet]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_token) for valgmuligheter i forespørselen.
 
 ##### Eksempel på forespørsel
 
@@ -188,7 +188,7 @@ Det returnerte ID tokenet er en signert JWT struktur i henhold til OpenID Connec
 OuFJaVWQvLY9... <signaturverdi> ...isvpDMfHM3mkI
 ```
 
-Se [detaljert dokumentasjon av innholdet i id_token]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_token#the-id_token) for dokumentasjon av de ulike claims i id_tokenet.
+Se [detaljert dokumentasjon av innholdet i id_token]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_token#the-id_token) for dokumentasjon av de ulike claims i id_tokenet.
 
 
 
@@ -204,7 +204,7 @@ som kan benyttes mot providerens userinfo-endepunkt. Dette endepunktet kan benyt
 Da ID-porten generelt har lite data om sluttbrukeren har dette endepunktet begrenset verdi for denne tjenesten. Personnummer og valgt språk under innlogging er de
 dataene som vil bli eksponert her.
 
-Se [/userinfo-endepunktet]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_userinfo) for nærmere dokumentasjon.
+Se [/userinfo-endepunktet]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_userinfo) for nærmere dokumentasjon.
 
 #### Eksempel på respons:
 

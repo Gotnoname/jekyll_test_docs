@@ -35,7 +35,7 @@ Alle OIDC-tjenester må implementere støtte for følgende to utloggings-scenari
 
 ### 1: Utlogging fra egen tjeneste
 
-Når brukeren vil logge ut fra din tjeneste, må du sende en redirect til ID-portens endsession-endepunkt.  Adressen til endepunktet er definert i [well-known-endepunktet]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_wellknown).  
+Når brukeren vil logge ut fra din tjeneste, må du sende en redirect til ID-portens endsession-endepunkt.  Adressen til endepunktet er definert i [well-known-endepunktet]({{site.baseurl}}/docs/idporten/oidc/oidc_func_wellknown).  
 
 
 Følgende attributer kan være del av requesten:

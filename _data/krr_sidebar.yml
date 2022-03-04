@@ -6,19 +6,19 @@ folders:
   folderitems:
 
       - title: Oppslagstjenesten REST
-        jurl: /docs/kontaktregisteret/oppslagstjenesten_rest
+        jurl: /docs/Kontaktregisteret/oppslagstjenesten_rest
 
       - title: Brukerspesifikt oppslag REST
-        jurl: /docs/kontaktregisteret/Brukerspesifikt-oppslag_rest
+        jurl: /docs/Kontaktregisteret/Brukerspesifikt-oppslag_rest
 
       - title: Attributter i KRR
-        jurl: /docs/kontaktregisteret/krr_attributter
+        jurl: /docs/Kontaktregisteret/krr_attributter
 
       - title: Testbrukere
-        jurl: /docs/kontaktregisteret/krr_testbrukere
+        jurl: /docs/Kontaktregisteret/krr_testbrukere
 
       - title: Overgang fra SOAP til REST
-        jurl: /docs/kontaktregisteret/krr_overgang_soap_rest
+        jurl: /docs/Kontaktregisteret/krr_overgang_soap_rest
 
 
 ###########################

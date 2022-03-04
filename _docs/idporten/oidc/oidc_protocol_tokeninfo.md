@@ -39,7 +39,7 @@ The most important parameter in the reponse is the `active`-claim.  If its value
 | --- | --- | --- |
 | active | true / false | Authorative statement from ID-porten whether the submitted token is valid or not. |
 
-The response will also include a number of claims related to the submitted token, and are equal to the claims available for [self-contained access token]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_token#by-value--self-contained-access-token).
+The response will also include a number of claims related to the submitted token, and are equal to the claims available for [self-contained access token]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_token#by-value--self-contained-access-token).
 
 Please note that the response from the /tokeninfo-endpoint is NOT an access_token, even though it is a JWT.
 

@@ -24,11 +24,11 @@ For å administrere API'er må administrasjons-klienten ha tilgang til scopet id
 
 Ta kontakt med servicedesk@digdir.no for å få tilgang.
 
-Les også ["Grunnleggende prosedyre for API-sikring".]({{site.baseurl}}/docs/ID-porten/oidc/oidc_api_admin_maskinporten#grunnleggende-prosedyre-for-api-sikring)
+Les også ["Grunnleggende prosedyre for API-sikring".]({{site.baseurl}}/docs/idporten/oidc/oidc_api_admin_maskinporten#grunnleggende-prosedyre-for-api-sikring)
 
 ### Opprette API - Oauth2-selvbetjeningsklient
 
-Dersom du vil automatisere administrasjonen av scopes og tilganger fra egen API management-løsning, må du lage en Oauth2-klient som benytter selvbetjeningsAPIet til Maskinporten.  Se [{{site.baseurl}}/docs/ID-porten/oidc/oidc_api_admin_maskinporten]({{site.baseurl}}/docs/ID-porten/oidc/oidc_api_admin_maskinporten) for detaljer.
+Dersom du vil automatisere administrasjonen av scopes og tilganger fra egen API management-løsning, må du lage en Oauth2-klient som benytter selvbetjeningsAPIet til Maskinporten.  Se [{{site.baseurl}}/docs/idporten/oidc/oidc_api_admin_maskinporten]({{site.baseurl}}/docs/idporten/oidc/oidc_api_admin_maskinporten) for detaljer.
 
 #### Eksempel på å opprette scope
 
@@ -117,7 +117,7 @@ Ta kontakt med servicedesk@digdir.no for å få tilgang.
 
 #### Registrere klient som bruker virksomhetssertifikat
 
-For å kunne registrere en klient via vår selvbetjenings-APi, må du først opprette en selvbetjeningsklient.  Se [{{site.baseurl}}/docs/ID-porten/oidc/oidc_api_admin.]({{site.baseurl}}/docs/ID-porten/oidc/oidc_api_admin)
+For å kunne registrere en klient via vår selvbetjenings-APi, må du først opprette en selvbetjeningsklient.  Se [{{site.baseurl}}/docs/idporten/oidc/oidc_api_admin.]({{site.baseurl}}/docs/idporten/oidc/oidc_api_admin)
 
 Deretter kan du opprette Maskinporten-integrasjonen slik:
 

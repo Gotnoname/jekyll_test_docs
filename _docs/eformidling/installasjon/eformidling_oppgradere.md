@@ -19,7 +19,7 @@ Hva må gjøres?
 Vi anbefaler å ta backup av integrasjonspunkt-mappen før du begynner.
 
 1. Stopp integrasjonspunktet.
-2. Last ned [nytt integrasjonspunkt]({{site.baseurl}}/docs/eformidling/installasjon/eformidling_download_ip) og legg integrasjonspunkt[versjonsnr].jar filen inn i mappen med det gamle integrasjonspunktet. (Egen framgangsmåte ved docker image)
+2. Last ned [nytt integrasjonspunkt]({{site.baseurl}}/docs/eFormidling/installasjon/eformidling_download_ip) og legg integrasjonspunkt[versjonsnr].jar filen inn i mappen med det gamle integrasjonspunktet. (Egen framgangsmåte ved docker image)
 3. Oppdater versjonsnummer i din tjeneste (xml-fil), scheduled task eller kommando i konsollvindu. Se lenger nede på siden for mer informasjon.
 4. Start integrasjonspunktet. 
 

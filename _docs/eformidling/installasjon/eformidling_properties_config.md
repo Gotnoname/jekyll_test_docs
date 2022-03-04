@@ -30,7 +30,7 @@ Her laster du ned [integrasjonspunkt-local.properties-filen]({{site.baseurl}}/re
 
 1. Start med å opprette en mappe med navn integrasjonspunkt på for eksempel c:\
 2. Last så ned integrasjonspunkt-local.properties filen. den kan lastes ned [her ]({{site.baseurl}}/resources/eformidling/integrasjonspunkt-local.txt) og lagre i overnevnte mappe
-3. last ned integrasjonspunkt[versjonsnummer].jar filen. Den finner du [her]({{site.baseurl}}/docs/eformidling/installasjon/eformidling_download_ip)
+3. last ned integrasjonspunkt[versjonsnummer].jar filen. Den finner du [her]({{site.baseurl}}/docs/eFormidling/installasjon/eformidling_download_ip)
 
 Når du er ferdig skal strukturen på området se slik ut:
 ```
@@ -109,7 +109,7 @@ Ikke et unntak, men også viktig å merke seg. For å koble sak-arkivsystemet ti
 
 ### Hvordan opprette brukere for DPO/DPF/DPV?
 
-[Denne delen er flyttet]({{site.baseurl}}/docs/eformidling/installasjon/eformidling_create_users)
+[Denne delen er flyttet]({{site.baseurl}}/docs/eFormidling/installasjon/eformidling_create_users)
 
 > For DPI kreves ingen bruker, da benyttes virksomhetssertifikatet.
 

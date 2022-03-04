@@ -5,22 +5,22 @@ folders:
   folderitems:
 
   - title: For Service Provider
-    jurl: /docs/elma/elma_as_service_provider
+    jurl: /docs/ELMA/elma_as_service_provider
 
   - title: For Access Point Provider
-    jurl: /docs/elma/elma_as_access_point_provider
+    jurl: /docs/ELMA/elma_as_access_point_provider
 
 - title: ELMA documentation
   folderitems:
 
   - title: ICD 0192 and new profiles
-    jurl: /docs/elma/elma_0192andnewprofiles
+    jurl: /docs/ELMA/elma_0192andnewprofiles
 
   - title: Upgrade to new 3.0 profiles
-    jurl: /docs/elma/elma_upgradingto0192profiles
+    jurl: /docs/ELMA/elma_upgradingto0192profiles
 
   - title: Status & releasenotes
-    jurl: /docs/elma/elma_status
+    jurl: /docs/ELMA/elma_status
 
 - title: REST API
   folderitems:
@@ -32,4 +32,4 @@ folders:
     jurl: /resources/begrep/felles/
 
 - title: Open data
-  jurl: /docs/elma/elma_open_data
+  jurl: /docs/ELMA/elma_open_data

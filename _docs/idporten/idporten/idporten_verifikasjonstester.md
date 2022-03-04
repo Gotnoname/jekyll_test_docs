@@ -23,29 +23,29 @@ Detaljert beskriving av kvar enkelt test er gitt i *«Testsett - Verifikasjonste
 
 ### Testar som må gjennomførast
 
-[Test 1: Single sign-on (SSO) frå eiga teneste med sikkerheitsnivå 3]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#1-single-sign-on-sso-frå-eiga-teneste-med-sikkerheitsnivå-3)
+[Test 1: Single sign-on (SSO) frå eiga teneste med sikkerheitsnivå 3]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#1-single-sign-on-sso-frå-eiga-teneste-med-sikkerheitsnivå-3)
 
-[Test 3: SSO til eiga teneste med sikkerheitsnivå 3]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#3-sso-til-eiga-teneste-med-sikkerheitsnivå-3)
+[Test 3: SSO til eiga teneste med sikkerheitsnivå 3]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#3-sso-til-eiga-teneste-med-sikkerheitsnivå-3)
 
-[Test 6: Single log-out (SLO) frå eiga teneste]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#6-single-log-out-slo-frå-eiga-teneste)
+[Test 6: Single log-out (SLO) frå eiga teneste]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#6-single-log-out-slo-frå-eiga-teneste)
 
-[Test 7: SLO frå anna tjeneste]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#7-slo-frå-anna-tjeneste)
+[Test 7: SLO frå anna tjeneste]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#7-slo-frå-anna-tjeneste)
 
-[Test 8: SLO etter timeout]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#8-test-av-timeout-i--applikasjonen)
+[Test 8: SLO etter timeout]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#8-test-av-timeout-i--applikasjonen)
 
 
 ### Testar som kan gjennomførast
 Desse testane skal gjennonførast dersom ein har støtte for funksjonaliteten.
 
-[Test 2: SSO frå eiga teneste med sikkerheitsnivå 4]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#2-sso-frå-eiga-teneste-med-sikkerheitsnivå-4)
+[Test 2: SSO frå eiga teneste med sikkerheitsnivå 4]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#2-sso-frå-eiga-teneste-med-sikkerheitsnivå-4)
 
-[Test 4: SSO til eiga teneste med sikkerheitsnivå 4]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#4-sso-til-eiga-teneste-med-sikkerheitsnivå-4)
+[Test 4: SSO til eiga teneste med sikkerheitsnivå 4]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#4-sso-til-eiga-teneste-med-sikkerheitsnivå-4)
 
-[Test 9: Autentiseringsforespørsel – attributt \<ForceAuth> (tvinga re-autentisering)]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#9-autentiseringsforespørsel--tvinga-reautentisering)
+[Test 9: Autentiseringsforespørsel – attributt \<ForceAuth> (tvinga re-autentisering)]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#9-autentiseringsforespørsel--tvinga-reautentisering)
 
-[Test 10: Autentiseringsforespørsel – attributt \<OnBehalfOf> («på vegne av»)]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#10--autentiseringsforespørsel--onbehalfof-på-vegne-av)
+[Test 10: Autentiseringsforespørsel – attributt \<OnBehalfOf> («på vegne av»)]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#10--autentiseringsforespørsel--onbehalfof-på-vegne-av)
 
-[Test 11: Autentiseringsforespørsel – attributt \<locale> (språk)]({{site.baseurl}}/docs/ID-porten/idporten/idporten_verifikasjonstester#11-autentiseringsforespørsel--språk)
+[Test 11: Autentiseringsforespørsel – attributt \<locale> (språk)]({{site.baseurl}}/docs/idporten/idporten/idporten_verifikasjonstester#11-autentiseringsforespørsel--språk)
 
 
 ***

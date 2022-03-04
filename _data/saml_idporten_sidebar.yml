@@ -5,38 +5,38 @@ folders:
   folderitems:
 
   - title: Hvordan komme  igang
-    jurl: /docs/ID-porten/saml/saml_tilgang
+    jurl: /docs/idporten/saml/saml_tilgang
 
   - title: Funksjonell beskrivelse
-    jurl: /docs/ID-porten/saml/saml_funksjonell
+    jurl: /docs/idporten/saml/saml_funksjonell
 
   - title: Teknisk - Innlogging
-    jurl: /docs/ID-porten/saml/saml_teknisk_innlogging
+    jurl: /docs/idporten/saml/saml_teknisk_innlogging
 
   - title: Detaljert beskrivelse av teknisk løsning
-    jurl: /docs/ID-porten/saml/saml_teknisk_losning
+    jurl: /docs/idporten/saml/saml_teknisk_losning
 
   - title: Sikkerhet
-    jurl: /docs/ID-porten/saml/saml_sikkerhet
+    jurl: /docs/idporten/saml/saml_sikkerhet
 
   - title: Detaljert beskrivelse av støttede SAML 2.0 profiler
-    jurl: /docs/ID-porten/saml/saml_stottede_profiler
+    jurl: /docs/idporten/saml/saml_stottede_profiler
 
   - title: Mer om metadata og SAML
-    jurl: /docs/ID-porten/saml/saml_metadata
+    jurl: /docs/idporten/saml/saml_metadata
 
   - title: Hurtigguide - Teknisk Integrasjon
-    jurl: /docs/ID-porten/saml/saml_hurtigguide
+    jurl: /docs/idporten/saml/saml_hurtigguide
 
   - title: Verifikasjonstester SAML og OpenID Connect
-    jurl: /docs/ID-porten/saml/saml_verifikasjonstester
+    jurl: /docs/idporten/saml/saml_verifikasjonstester
 
 
 #- title: OpenID Connect i ID-porten
 #  folderitems:
 
 #  - title: Integrasjonsguide OpenID Connec
-#    jurl: /docs/ID-porten/oidc/
+#    jurl: /docs/idporten/oidc/
 
 ###########################
 

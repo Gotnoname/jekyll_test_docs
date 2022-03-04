@@ -29,4 +29,4 @@ Her er en oversikt over attributtene som finnes i KRR sitt REST API og hvilken r
 | spraak | Bruker sitt foretrukne språk for kommunikasjon med det offentlige | nn, nb, en, se |
 | spraak_oppdatert | Sist gang språkvalg ble oppdatert | Angis som dato og klokkeslett |
 
-Du kan finne et utvalg testbrukere på siden [Testbrukere i KRR]({{site.baseurl}}/docs/kontaktregisteret/krr_testbrukere)
+Du kan finne et utvalg testbrukere på siden [Testbrukere i KRR]({{site.baseurl}}/docs/Kontaktregisteret/krr_testbrukere)

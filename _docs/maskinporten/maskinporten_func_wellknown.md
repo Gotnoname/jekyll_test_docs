@@ -23,4 +23,4 @@ På endepunktet finner du lenke til vårt JWK-endepunkt, der  Maskinportens sign
 |PROD|[https://maskinporten.no/.well-known/oauth-authorization-server](https://maskinporten.no/.well-known/oauth-authorization-server)|
 
 ## ID-porten
-Merk at ID-porten OIDC provider har sine egne metadata, som er [publisert her]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_wellknown)
+Merk at ID-porten OIDC provider har sine egne metadata, som er [publisert her]({{site.baseurl}}/docs/idporten/oidc/oidc_func_wellknown)

@@ -18,7 +18,7 @@ Om du skal sette opp integrasjonspunktet mot testmiljø kan en enten legge til `
 
 **NB!** Kommandolinje har presendens over properties.
 
-Mer informasjon om oppstart av integrasjonspunktet mot testmiljøet finner du [her]({{site.baseurl}}/docs/eformidling/installasjon/eformidling_ip_run)
+Mer informasjon om oppstart av integrasjonspunktet mot testmiljøet finner du [her]({{site.baseurl}}/docs/eFormidling/installasjon/eformidling_ip_run)
 
 ### Digital post til virksomheter (DPV)
 

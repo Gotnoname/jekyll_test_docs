@@ -64,7 +64,7 @@ I dette scenariet ønsker en **klient** å bruke en **ressurs (API)** tilbudt av
 
 ## 1. Generere JWT
 
-Klienten må generere og signere ein JWT for å forespørre tokens fra autorisasjonsserveren.  For komplett dokumentasjon, se [JWT-grant]({{site.baseurl}}/docs/maskinporten/maskinporten_protocol_jwtgrant)
+Klienten må generere og signere ein JWT for å forespørre tokens fra autorisasjonsserveren.  For komplett dokumentasjon, se [JWT-grant]({{site.baseurl}}/docs/Maskinporten/maskinporten_protocol_jwtgrant)
 
 
 ### Eksempel på JWT-grant struktur
@@ -97,7 +97,7 @@ som dekoda blir:
 
 ## 2. Send JWT til /token-endepunktet
 
-Se [detaljert dokumentasjon av /token-endepunktet]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_token).
+Se [detaljert dokumentasjon av /token-endepunktet]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_token).
 
 
 Eksempel på forespørsel:
@@ -156,7 +156,7 @@ TODO:
 
 ### 3. Validering av token mot /tokeninfo-endepunkt
 
-Se [detaljert dokumentasjon av /tokeninfo-endepunktet]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_tokeninfo).
+Se [detaljert dokumentasjon av /tokeninfo-endepunktet]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_tokeninfo).
 #### Eksempel på request:
 
 ```

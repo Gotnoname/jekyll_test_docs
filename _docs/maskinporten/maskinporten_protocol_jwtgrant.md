@@ -43,7 +43,7 @@ Note that production certificates are not supported in test environments.
 |exp| Required| expiration time - Timestamp for the expiry of this jwt,  in UTC-time. **NOTE:** Maximum 120 seconds allowed. (exp - iat <= 120 )|
 |jti|Recommended | JWT ID - unique id for this jwt. **NOTE:** A JWT cannot be reused. |
 |scope| Required| Whitepace-separated liste over scopes requested.  When using JWT grants, the client must have pre-registered with rights to all the scopes (unless using delegation in Altinn, see below.) |
-| resource   | optional  | The target API that the client intends to use the token. Only used by some APIs, and the actual value to use must be obtained from the API owner. Please see [audience-restriction]({{site.baseurl}}/docs/maskinporten/maskinporten_func_audience_restricted_tokens) for details. *Currently only array supported.*  |   
+| resource   | optional  | The target API that the client intends to use the token. Only used by some APIs, and the actual value to use must be obtained from the API owner. Please see [audience-restriction]({{site.baseurl}}/docs/Maskinporten/maskinporten_func_audience_restricted_tokens) for details. *Currently only array supported.*  |   
 
 
 If the client belongs to a supplier requesting a token on behalf of another organization (legal consumer), there are two mutually exclusive claims available:
@@ -51,7 +51,7 @@ If the client belongs to a supplier requesting a token on behalf of another orga
 | Claim  |  Cardinality | Description  |
 | --- | --- |--- |
 |consumer_org| Optional |  String value carrying the Norwegian organization number of the legal consumer the client wants to get a token for. Maskinporten will validate against Altinn that the consumer-supplier delegation exists.  |
-|iss_onbehalfof| Optional | Maskinporten proprietary claim.  The onbehalfof-value for the sub-client the client is acting onbehalf of.   (See  [onbehalfof]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_onbehalfof))|
+|iss_onbehalfof| Optional | Maskinporten proprietary claim.  The onbehalfof-value for the sub-client the client is acting onbehalf of.   (See  [onbehalfof]({{site.baseurl}}/docs/idporten/oidc/oidc_func_onbehalfof))|
 
 
 

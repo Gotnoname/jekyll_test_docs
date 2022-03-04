@@ -42,7 +42,7 @@ For eksplisitte samtykker som skal vare "lenge" ("jeg samtykker til at Banken mi
  </div>
 
 
-Hvilket API/ressurs som skal aksesseres, er styrt av [_scopes_]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_scope).  Klienten må vite hvilke(t) scope som hører til den aktuelle API-operasjonen, og må forespørre dette scopet i autorisasjonsforespørselen.   Dersom scopet har egenskapen `requires_user_consent` satt, vil ID-porten vise en enkel godkjennings-dialog til innbygger når autentisering er fullført.  Se eksempel under:
+Hvilket API/ressurs som skal aksesseres, er styrt av [_scopes_]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_scope).  Klienten må vite hvilke(t) scope som hører til den aktuelle API-operasjonen, og må forespørre dette scopet i autorisasjonsforespørselen.   Dersom scopet har egenskapen `requires_user_consent` satt, vil ID-porten vise en enkel godkjennings-dialog til innbygger når autentisering er fullført.  Se eksempel under:
 
 ![tilgangsdialog]({{site.baseurl}}/images/idporten/oidc/samtykkedialog3.png)
 
@@ -59,7 +59,7 @@ Det er flere gode grunner for API-tilbydere til å bruke dette samhandlingsmøns
 * Misbrukspotensialet sett fra API-tilbyders side blir redusert ifht maskin-til-maskin-scenario, siden en ikke åpner for tilgang til hele datasettet, men kun for de brukere som faktisk er tilstede i utvalgte tjenester hos ID-porten.
 
 Eksempler på bruk av løsningsmønsteret:
- * [Oppdatere innbyggers preferert språk i Kontaktregisteret]({{site.baseurl}}/docs/kontaktregisteret/Brukerspesifikt-oppslag_rest#spraak)
+ * [Oppdatere innbyggers preferert språk i Kontaktregisteret]({{site.baseurl}}/docs/Kontaktregisteret/Brukerspesifikt-oppslag_rest#spraak)
  * [Ansatt hos kommune som skal ha tilgang til data som ligger lagret hos Fiks-plattformen til KS](https://ks-no.github.io/fiks-plattform/sikkerhet/#autentisering-og-autorisering)
 
 
@@ -101,7 +101,7 @@ sequenceDiagram
 </div>
 
 
-Starten av flyten er identisk med [autorisasjonskode-flyten for autentisering]({{site.baseurl}}/docs/ID-porten/oidc/oidc_auth_codeflow) (se denne for detaljer), med følgende tillegg:
+Starten av flyten er identisk med [autorisasjonskode-flyten for autentisering]({{site.baseurl}}/docs/idporten/oidc/oidc_auth_codeflow) (se denne for detaljer), med følgende tillegg:
 
 * I **autentiseringsresponsen** fra OpenID Provider får klient også utlevert et *access_token* (og eventuelt et *refresh_token*) som gir tilgang til forespurte scopes.  
 * Etter innlogging kan da klienten bruke access_tokenet opp mot det relevante APIet.  
@@ -111,4 +111,4 @@ Forskjellen på *autentisering* (OpenIDConnect) og *autorisasjon* med "plain" Oa
 1. For å sikre at autentisering-oppførselen blir ihht. OpenID Connect-spesifikasjonen **må** man benytte 'openid'-scopet
 2. OpenID Connect forholder seg ikke til ressurs-servere /API-er, men man kan fint forespørre ekstra scopes i en OIDC autentiseringsforespørsel, og således oppnå kombinert autorisasjon og autentisering.
 
-For nærmere detaljer om innholdet i access_token, se [grensesnittsdefinisjon av /token-endepunktet]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_access_token).   Se også [dokumentasjon av scopes](oidc_protocol_scopes.html).
+For nærmere detaljer om innholdet i access_token, se [grensesnittsdefinisjon av /token-endepunktet]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_access_token).   Se også [dokumentasjon av scopes](oidc_protocol_scopes.html).

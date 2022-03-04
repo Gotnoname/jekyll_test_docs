@@ -35,3 +35,9 @@ Eksempler for publisering av møtedata i json-ld kompakt variant
 * [Kun møteinformasjon]({{site.baseurl}}/resources/einnsyn/eksempelfiler/1_moeteinfo_compact_eksempel.json)
 * [Møte med et møtedokument]({{site.baseurl}}/resources/einnsyn/eksempelfiler/2_moeteinfo med moetedok_innkalling_compact_eksempel.json)
 * [Møte med politisk sak og tilhørende referert saksfremlegg/journalpost]({{site.baseurl}}/resources/einnsyn/eksempelfiler/4_moete_moetesak og saksmappe_journalpost_compact_eksempel.json)
+
+## Oppsplitting av Noark-uttrekk
+* [Original xml-uttrekk]({{site.baseurl}}/resources/einnsyn/eksempelfiler/meldingsstruktur/Møtemappe med utvalg Case1.xml)
+* [Journalpostmelding]({{site.baseurl}}/resources/einnsyn/eksempelfiler/meldingsstruktur/journalpost.jsonld)
+* [Møtesaksregistreringsmelding]({{site.baseurl}}/resources/einnsyn/eksempelfiler/meldingsstruktur/møtesaksregistrering.jsonld)
+* [Møtedokumentregistreringsmelding]({{site.baseurl}}/resources/einnsyn/eksempelfiler/meldingsstruktur/møtedokumentregistrering.jsonld)

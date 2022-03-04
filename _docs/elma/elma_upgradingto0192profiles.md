@@ -11,7 +11,7 @@ redirect_from: /elma_upgradeto0192profiles
 
 *Updated: 20.03.2019*
 
-Recommended reading: [explanation of the new ICD (0192), new Profiles and how this works in ELMA]({{site.baseurl}}/docs/elma/elma_0192andnewprofiles).
+Recommended reading: [explanation of the new ICD (0192), new Profiles and how this works in ELMA]({{site.baseurl}}/docs/ELMA/elma_0192andnewprofiles).
 
 You can either update via ELMA-web (if you have relatively few participants) or via the Web Service.
 

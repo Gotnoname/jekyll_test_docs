@@ -10,7 +10,7 @@ redirect_from: /eformidling_verifisere_forsendelser
 
 Før en tar i bruk eFormidling er det viktig å verifisere både mottak og sending av forsendelser. Dette er det siste steget før virksomheten din kan ta i bruk eFormidling. Denne guiden er ment som en rettesnor for testing og verifisering i **produksjonsmiljøet**.
 
-Lenke til **testmiljøet** finner du derimot [her]({{site.baseurl}}/docs/eformidling/selvhjelp/eformidling_testing_env).
+Lenke til **testmiljøet** finner du derimot [her]({{site.baseurl}}/docs/eFormidling/Selvhjelp/eformidling_testing_env).
 
 ## Hva må jeg huske på?
 

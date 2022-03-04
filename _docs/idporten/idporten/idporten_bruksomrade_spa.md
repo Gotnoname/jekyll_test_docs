@@ -25,13 +25,13 @@ Tjenesteeiere må:
 
 ## Flyt
 
-I praksis er flyten den samme som [ordinær autorisasjonskodeflyt]({{site.baseurl}}/docs/ID-porten/oidc/oidc_auth_codeflow), men der:
+I praksis er flyten den samme som [ordinær autorisasjonskodeflyt]({{site.baseurl}}/docs/idporten/oidc/oidc_auth_codeflow), men der:
 
-- Klienten må registreres som "public" klient i ID-porten (se [klientregistrering]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_clientreg))
+- Klienten må registreres som "public" klient i ID-porten (se [klientregistrering]({{site.baseurl}}/docs/idporten/oidc/oidc_func_clientreg))
 - Det registreres ingen client-secret
-- Bruk av [PKCE]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_pkce) er påkrevd
+- Bruk av [PKCE]({{site.baseurl}}/docs/idporten/oidc/oidc_func_pkce) er påkrevd
 - Bruk av `state`-claimet i autorisasjonsforespørsel er påkrevd
 
 ## Example
 
-Sjå [eksempel med React-klient]({{site.baseurl}}/docs/ID-porten/oidc/oidc_sample_react)
+Sjå [eksempel med React-klient]({{site.baseurl}}/docs/idporten/oidc/oidc_sample_react)

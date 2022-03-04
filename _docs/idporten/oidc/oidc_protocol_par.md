@@ -12,7 +12,7 @@ redirect_from: /oidc_protocol_par
 
 Pushed Authorization Requestes (PAR) and the `/par` endpoint is thoroughly documented in the draft IETF-specification [draft-ietf-oauth-par-06](https://tools.ietf.org/html/draft-ietf-oauth-par-06)
 
-PAR lets the client push the authorization request (see [/authorize]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_authorize) ) to ID-porten ahead of end-user involvement.
+PAR lets the client push the authorization request (see [/authorize]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_authorize) ) to ID-porten ahead of end-user involvement.
 
 {% include note.html content="I 2022 kommer det [ikke-bakoverkompatible endringer i ID-porten](oidc_protocol_nye_idporten.html)." %}
 
@@ -30,7 +30,7 @@ Supported HTTP headers:
 
 &nbsp;
 
-The supported request attributes are identical to attributes available on the [/authorize]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_authorize) endpoint, ie:
+The supported request attributes are identical to attributes available on the [/authorize]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_authorize) endpoint, ie:
 
 
 | Attribute  | Optionality | Description |
@@ -48,7 +48,7 @@ The supported request attributes are identical to attributes available on the [/
 | code_challenge   | Recommended  | The [PKCE](oicd_func_pkce.html) `code_challenge` is a calculated value based on `code_verifier`.  Mandatory to use for public clients |
 | code_challenge_method   | Recommended   | Algorithm for PKCE. Only `S256` supported.  |
 |login_hint   | Optional   | Set to "eidas:true" to trigger authentication by European users according to eIDAS   |
-|claims   | Optional  | Currently only used for [eIDAS]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_eidas)|
+|claims   | Optional  | Currently only used for [eIDAS]({{site.baseurl}}/docs/idporten/oidc/oidc_func_eidas)|
 
 
 

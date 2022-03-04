@@ -10,7 +10,7 @@ redirect_from: /brukerspesifikt_oppslag_krr_rest
 
 ## Introduksjon
 
-Kontaktopplysninger fra Kontakt- og Reservasjonsregisteret er oftest utlevert globalt gjennom [Oppslagstjenesten]({{site.baseurl}}/docs/kontaktregisteret/oppslagstjenesten_rest).
+Kontaktopplysninger fra Kontakt- og Reservasjonsregisteret er oftest utlevert globalt gjennom [Oppslagstjenesten]({{site.baseurl}}/docs/Kontaktregisteret/oppslagstjenesten_rest).
 
 Men kunder kan også motta kontaktopplysninger kun tilhørende innlogget bruker, og dette kan i noen sammenhenger være mer hensiktsmessig.
 
@@ -20,7 +20,7 @@ Kunde må godkjenne bruksvilkår for Kontakt- og Reservasjonsregisteret for å k
 
 ## Bruk av Oauth2
 
-Tjenesten baserer seg på [autentiseringsnær autorisasjon]({{site.baseurl}}/docs/ID-porten/oidc/oidc_auth_oauth2).
+Tjenesten baserer seg på [autentiseringsnær autorisasjon]({{site.baseurl}}/docs/idporten/oidc/oidc_auth_oauth2).
 
 
 Man må forespørre ett eller flere av følgende scopes:

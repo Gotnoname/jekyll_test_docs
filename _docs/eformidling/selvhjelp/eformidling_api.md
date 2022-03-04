@@ -235,7 +235,7 @@ Dette oppslaget lister ut alle registrerte statuser på alle forsendelser via de
 
 > /api/messages/out/{```messageId```}
 
-> [Se her for opprett og send]({{site.baseurl}}/docs/eformidling/teknisk_informasjon/restdocs##messages-out-create)
+> [Se her for opprett og send]({{site.baseurl}}/docs/eFormidling/Teknisk_informasjon/restdocs##messages-out-create)
 
 *Kommer*
 

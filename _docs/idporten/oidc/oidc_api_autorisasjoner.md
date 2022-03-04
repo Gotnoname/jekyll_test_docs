@@ -44,8 +44,8 @@ Endepunktene er beskyttet med Oauth2 access_token fra enten ID-porten eller Mask
 
 | HTTP verb| beskrivelse|
 |-|-|
-| GET | Forventer at access_token tilhører innlogget bruker (såkalt [autentiseringsnær autorisasjon]({{site.baseurl}}/docs/ID-porten/oidc/oidc_auth_oauth2)) |
-| POST | Forventer [maskinporten-basert tilgang]({{site.baseurl}}/docs/maskinporten/maskinporten_auth_server-to-server-oauth2) og at personidentifikator er del av request-body |
+| GET | Forventer at access_token tilhører innlogget bruker (såkalt [autentiseringsnær autorisasjon]({{site.baseurl}}/docs/idporten/oidc/oidc_auth_oauth2)) |
+| POST | Forventer [maskinporten-basert tilgang]({{site.baseurl}}/docs/Maskinporten/maskinporten_auth_server-to-server-oauth2) og at personidentifikator er del av request-body |
 | DELETE | Støtter begge token-typer.  |
 
 

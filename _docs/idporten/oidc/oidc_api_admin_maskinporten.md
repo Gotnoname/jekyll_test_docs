@@ -10,11 +10,11 @@ redirect_from: /oidc_api_admin_maskinporten
 
 ## Introduksjon
 
-"Maskinporten" er en egenskap ved ID-portens OIDC provider som tilbyr en enkel modell for API-sikring basert på såkalt "2-legged Oauth", se [server-to-server Oauth2]({{site.baseurl}}/docs/ID-porten/oidc/oidc_auth_server-to-server-oauth2), inspirert av [Google sine system-kontoer](https://developers.google.com/identity/protocols/OAuth2ServiceAccount).
+"Maskinporten" er en egenskap ved ID-portens OIDC provider som tilbyr en enkel modell for API-sikring basert på såkalt "2-legged Oauth", se [server-to-server Oauth2]({{site.baseurl}}/docs/idporten/oidc/oidc_auth_server-to-server-oauth2), inspirert av [Google sine system-kontoer](https://developers.google.com/identity/protocols/OAuth2ServiceAccount).
 
 På denne siden dokumenterer vi hvordan  API-tilbydere gir mulighet til selvbetjening av egen API-sikring.
 
-Les gjerne [integrasjonsguide for API-tilbydere]({{site.baseurl}}/docs/maskinporten/maskinporten_guide_apitilbyder) først.  API-konsumenter bør se på [integrsasjonsguide for API-konsumenter]({{site.baseurl}}/docs/maskinporten/maskinporten_guide_apikonsument) og [selvbejenings-API for integrasjoner](oidc_admin.html)
+Les gjerne [integrasjonsguide for API-tilbydere]({{site.baseurl}}/docs/Maskinporten/maskinporten_guide_apitilbyder) først.  API-konsumenter bør se på [integrsasjonsguide for API-konsumenter]({{site.baseurl}}/docs/Maskinporten/maskinporten_guide_apikonsument) og [selvbejenings-API for integrasjoner](oidc_admin.html)
 
 
 ## Om selvbetjenings-APIet
@@ -25,7 +25,7 @@ Ta kontakt med <a href="mailto:servicedesk@digdir.no">servicedesk@digdir.no</a> 
 
 ### Bruk av Oauth2
 
-APIet er også selv sikret vha. [server-til-server Oauth]({{site.baseurl}}/docs/ID-porten/oidc/oidc_auth_server-to-server-oauth2), dvs. med bruk av virksomhetssertifikat, og virksomheten sin administrasjons-klient må manuelt få tildelt scopes for å få tilgang til selvbetjeningsAPIet:
+APIet er også selv sikret vha. [server-til-server Oauth]({{site.baseurl}}/docs/idporten/oidc/oidc_auth_server-to-server-oauth2), dvs. med bruk av virksomhetssertifikat, og virksomheten sin administrasjons-klient må manuelt få tildelt scopes for å få tilgang til selvbetjeningsAPIet:
 
 API-tilbydere må ha:
 
@@ -165,7 +165,7 @@ Respons:
 
 ### 3. Konsument lager en integrasjon
 
-Konsumenten må registere en integrasjon (=oauth2-klient) som skal bruke den aktuelle tilgangen. Konsumenten kan enten lage en ny klient, eller oppdatere en eksisterende.  Generelt anbefaler vi av sikkerhetsgrunner å lage en ny, siden klienter ikke bør får for vide tilganger (altså for mange scopes).  Dette gjøres ved [ID-porten sitt API for selvbetjening av integrasjoner]({{site.baseurl}}/docs/ID-porten/oidc/oidc_api_admin#scopes).
+Konsumenten må registere en integrasjon (=oauth2-klient) som skal bruke den aktuelle tilgangen. Konsumenten kan enten lage en ny klient, eller oppdatere en eksisterende.  Generelt anbefaler vi av sikkerhetsgrunner å lage en ny, siden klienter ikke bør får for vide tilganger (altså for mange scopes).  Dette gjøres ved [ID-porten sitt API for selvbetjening av integrasjoner]({{site.baseurl}}/docs/idporten/oidc/oidc_api_admin#scopes).
 
 #### Eksempel på registrering
 

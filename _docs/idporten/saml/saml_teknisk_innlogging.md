@@ -54,7 +54,7 @@ ID-porten vil tolke alle forespørsler til *minimum* og at *AuthnContextClassRef
 
 #### **NameID**
 
-Det anbefales at tjenesteleverandør setter *NameID* til *transient*. ID-porten støtter både *transient* og *persistent*. Se eventuelt [Detaljert beskrivelse av støttede SAML2-profiler]({{site.baseurl}}/docs/ID-porten/saml/saml_stottede_profiler) for mer informasjon.
+Det anbefales at tjenesteleverandør setter *NameID* til *transient*. ID-porten støtter både *transient* og *persistent*. Se eventuelt [Detaljert beskrivelse av støttede SAML2-profiler]({{site.baseurl}}/docs/idporten/saml/saml_stottede_profiler) for mer informasjon.
 
 #### **ForceAuthn**
 
@@ -85,7 +85,7 @@ ID-porten støtter følgende språk:
 
 I de tilfeller der tjenesteleverandør ikke sender over språkvalg, vil ID-porten benytte språket som er satt i nettleseren. Er nettleseren innstilt på et språk som ID-porten ikke støtter, vil ID-porten velge standardspråket bokmål.
 
-ID-porten sender over språket som er brukt ved innlogging i [assertion til tjenesteleverandør]({{site.baseurl}}/docs/ID-porten/saml/saml_teknisk_innlogging#artifactresponse)
+ID-porten sender over språket som er brukt ved innlogging i [assertion til tjenesteleverandør]({{site.baseurl}}/docs/idporten/saml/saml_teknisk_innlogging#artifactresponse)
 
 Her er et eksempel på hvordan en forespørsel med språk ser ut:
 ```xml
@@ -159,7 +159,7 @@ Følgende attributter legges ved i assertion:
 | uid | Fødselsnummer | |
 | SecurityLevel | sikkerhetsnivå | |
 | Culture | Språk | |
-| AuthMethod | Autentiseringsmetode | Gyldige verdier i AuthMethod er [beskrevet i tabellen for `amr` her]({{site.baseurl}}/docs/ID-porten/oidc/oidc_protocol_id_token) |
+| AuthMethod | Autentiseringsmetode | Gyldige verdier i AuthMethod er [beskrevet i tabellen for `amr` her]({{site.baseurl}}/docs/idporten/oidc/oidc_protocol_id_token) |
 | OnBehalfOf | EntityID for tjenesteeier | Om verdi er mottatt i forespørsel fra tjenesteleverandør |
 | epostadresse | [epostadresse](http://begrep.difi.no/Felles/epostadresse) | Kun tilgjengelig for tjenesteleverandører som har tatt i bruk kontakt- og reservasjonsregisteret |
 | mobiltelefonnummer | [mobiltelefonnummer](http://begrep.difi.no/Felles/mobiltelefonnummer) | Kun tilgjengeleg for tjenesteleverandører som har tatt i bruk kontakt- og reservasjonsregisteret |
@@ -169,4 +169,4 @@ Følgende attributter legges ved i assertion:
 
 #### **AuthnContextClassRef som informasjonsbærer om sikkerhetsnivå**
 
-Assertion vil alltid inneholde informasjon om sikkerhetsnivå benyttet under autentisering. Til dette benyttes AuthnContextClassRef på samme måte som i autentiseringsforespørselen. Se [tabell knyttet til autentiseringsforespørsel]({{site.baseurl}}/docs/ID-porten/saml/saml_teknisk_innlogging#requestedauthncontext) for spesifisering av gyldige klasser støttet i ID-porten og deres tilhørende autentiseringsnivå.
+Assertion vil alltid inneholde informasjon om sikkerhetsnivå benyttet under autentisering. Til dette benyttes AuthnContextClassRef på samme måte som i autentiseringsforespørselen. Se [tabell knyttet til autentiseringsforespørsel]({{site.baseurl}}/docs/idporten/saml/saml_teknisk_innlogging#requestedauthncontext) for spesifisering av gyldige klasser støttet i ID-porten og deres tilhørende autentiseringsnivå.

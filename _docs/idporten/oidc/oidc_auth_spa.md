@@ -42,12 +42,12 @@ Fram til release 21-06 må klienten opprettast som `application-type=web` (og cl
 
 ## Flyt
 
-I praksis er flyten den samme som [ordinær autorisasjonskodeflyt]({{site.baseurl}}/docs/ID-porten/oidc/oidc_auth_codeflow), men der:
+I praksis er flyten den samme som [ordinær autorisasjonskodeflyt]({{site.baseurl}}/docs/idporten/oidc/oidc_auth_codeflow), men der:
 
-- Klienten må registreres med klient-autentiseringsmetode `none`  i ID-porten (se [klientregistrering]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_clientreg)) (dersom ikke BFF-mønster)
-- Bruk av [PKCE]({{site.baseurl}}/docs/ID-porten/oidc/oidc_func_pkce) er påkrevd
+- Klienten må registreres med klient-autentiseringsmetode `none`  i ID-porten (se [klientregistrering]({{site.baseurl}}/docs/idporten/oidc/oidc_func_clientreg)) (dersom ikke BFF-mønster)
+- Bruk av [PKCE]({{site.baseurl}}/docs/idporten/oidc/oidc_func_pkce) er påkrevd
 - Bruk av `state`-claimet i autorisasjonsforespørsel er påkrevd
 
 ## Example
 
-Sjå [eksempel med React-klient]({{site.baseurl}}/docs/ID-porten/oidc/oidc_sample_react)
+Sjå [eksempel med React-klient]({{site.baseurl}}/docs/idporten/oidc/oidc_sample_react)

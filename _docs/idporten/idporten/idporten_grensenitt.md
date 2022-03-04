@@ -10,5 +10,5 @@ redirect_from: /idporten_grensesnitt
 
 ID-porten støtter to grensesnittsprotokoller:
 
-- [OpenID Connect / Oauth2]({{site.baseurl}}/docs/ID-porten/oidc/oidc_guide_idporten)
-- ([SAML2]({{site.baseurl}}/docs/ID-porten/saml/saml_tilgang) fases ut)
+- [OpenID Connect / Oauth2]({{site.baseurl}}/docs/idporten/oidc/oidc_guide_idporten)
+- ([SAML2]({{site.baseurl}}/docs/idporten/saml/saml_tilgang) fases ut)

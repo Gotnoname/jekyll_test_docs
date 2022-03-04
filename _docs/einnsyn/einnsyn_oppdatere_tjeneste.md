@@ -22,8 +22,8 @@ Disse kommandoene må kjøres uten skråstrek eller bindestrek foran. Skrives n�
 ![Reinstallere tjeneste]({{site.baseurl}}/images/einnsyn/reinstall_klient.png)
 
 
-> Om du bruker mer enn 1 einnsyn-klient på samme server må du også sette et senderId felt i ```einnsyn-klient.xml``` for at adressering til eInnsyn skal bli korrekt. I dette feltet skal samme orgnummer som er brukt i ```integrasjonspunkt-local.properties```. I mange tilfeller er dette organisasjonens hovedorgnummer. [Mer informasjon om propertyen finner du her]({{site.baseurl}}/docs/einnsyn/einnsyn_flere_klienter)
+> Om du bruker mer enn 1 einnsyn-klient på samme server må du også sette et senderId felt i ```einnsyn-klient.xml``` for at adressering til eInnsyn skal bli korrekt. I dette feltet skal samme orgnummer som er brukt i ```integrasjonspunkt-local.properties```. I mange tilfeller er dette organisasjonens hovedorgnummer. [Mer informasjon om propertyen finner du her]({{site.baseurl}}/docs/eInnsyn/einnsyn_flere_klienter)
 
 ---
 
-[Informasjon om oppgradering av Integrasjonspunktet]({{site.baseurl}}/docs/eformidling/installasjon/eformidling_oppgradere)
+[Informasjon om oppgradering av Integrasjonspunktet]({{site.baseurl}}/docs/eFormidling/installasjon/eformidling_oppgradere)

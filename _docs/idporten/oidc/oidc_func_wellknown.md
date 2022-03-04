@@ -28,4 +28,4 @@ På endepunktet finner du lenke til vårt JWK-endepunkt, der  ID-portens signeri
 
 ## Maskinporten
 
-Merk at Maskinporten har sine egne metadata, som er [publisert her]({{site.baseurl}}/docs/maskinporten/maskinporten_func_wellknown)
+Merk at Maskinporten har sine egne metadata, som er [publisert her]({{site.baseurl}}/docs/Maskinporten/maskinporten_func_wellknown)
